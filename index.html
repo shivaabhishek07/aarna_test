@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarna Embroidery Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading">
+        <img src="loading.gif" alt="Loading...">
+    </div>
+
+    <div id="content">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid d-flex justify-content-center"> <!-- Center content horizontally -->
+                <a class="navbar-brand d-flex align-items-center" href="#"> <!-- Align content vertically -->
+                    <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702657/ujoitmeyzrmwsaiw45md.png" alt="Be Bold" width="30" height="30" class="d-inline-block align-text-top me-2">
+                    <span class="h5 mb-0">Aarna Embroidery Studio</span> <!-- Use appropriate heading tag for the business name -->
+                </a>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="container my-4">
+            <div class="row">
+                <!-- Desktop view: images on the left -->
+                <div class="col-md-6 text-center">
+                    <div class="main-image">
+                        <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702660/mcwnfg5nsa7ec0hurmro.jpg" id="mainProductImage" alt="Main Product Image">
+                    </div>
+                    <div class="product-images-container">
+                        <div class="product-images">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702660/mcwnfg5nsa7ec0hurmro.jpg" alt="Product Image 1" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702660/mcwnfg5nsa7ec0hurmro.jpg" class="active">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702661/vd0vpkajisrvwvnd3b1y.jpg" alt="Product Image 2" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702661/vd0vpkajisrvwvnd3b1y.jpg">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702662/ark07p3yp9mtfxaazpdx.jpg" alt="Product Image 3" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702662/ark07p3yp9mtfxaazpdx.jpg">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702660/nexgfptpnlc8e2ekozqg.jpg" alt="Product Image 4" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702660/nexgfptpnlc8e2ekozqg.jpg">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702663/x2v9gucf6cpz4sbqjrak.jpg" alt="Product Image 5" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702663/x2v9gucf6cpz4sbqjrak.jpg">
+                            <img src="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702658/qisfwnafzwt3gfe55m8u.jpg" alt="Product Image 6" data-large="https://res.cloudinary.com/dyiua1ub9/image/upload/v1716702658/qisfwnafzwt3gfe55m8u.jpg">
+                        </div>
+                    </div>
+                </div>
+                <!-- Desktop view: product info on the right -->
+                <div class="col-md-6">
+                    <h2>Product 1</h2>
+                    <p><strong>Price:</strong> &#8377;650</p>
+                    <p><strong>Length:</strong> 1 meter</p>
+                    <p><strong>Colors Available:</strong> Red, Blue, Green</p>
+                    <div class="my-4">
+                        <a href="https://forms.gle/DawEedzZKi1A2Jf58" class="btn btn-primary" target="_blank">Buy Now</a>
+                    </div>
+                    <div class="my-4">
+                        <a href="https://wa.me/+919676393594" class="btn btn-success" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Enquiry
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <!-- <a href="https://facebook.com/yourprofile" target="_blank">
+                            <i class="fab fa-facebook" style="font-size: 30px;"></i>
+                        </a> -->
+                        <a href="https://instagram.com/aarna_embroidery_studio" target="_blank">
+                            <i class="fab fa-instagram" style="font-size: 30px;"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@amanigeela" target="_blank">
+                            <i class="fab fa-youtube" style="font-size: 30px;"></i>
+                        </a>
+                    </div>
+                    <div class="share-button">
+                        <button class="btn btn-info" onclick="shareProduct()">Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="index.js"></script>
+</body>
+</html>
