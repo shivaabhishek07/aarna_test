@@ -2,10 +2,12 @@ function shareProduct() {
     const productName = "Product 1";
     const productDescription = "Check out this amazing product from Aarna Embroidery Studio!";
     const productImage = document.getElementById('mainProductImage').src;
+    const websiteLink = "https://aarna-test.netlify.app/";
+    
     const shareText = `${productName}\n${productDescription}\nPrice: 650rs\nLength: 1 meter\nColors Available: Red, Blue, Green`;
 
     // WhatsApp Share
-    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}%0A${encodeURIComponent(productImage)}`;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}%0A${encodeURIComponent(websiteLink)}`;
     window.open(whatsappUrl, '_blank');
 
     // Email Share

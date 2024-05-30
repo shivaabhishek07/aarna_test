@@ -44,15 +44,22 @@
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    border: 2px solid transparent;
+    border-image: linear-gradient(145deg,#BE33FF, #fad0c4, #fad0c4, #FF338E) 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+    /*border: 1px solid #6C33FF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;*/
 }
 .main-image img {
     
     max-width: 100%;
     max-height: 100%;
     object-fit: contain; /* Ensures the image fits within the container without distortion */
-    
-
-    
+    border-radius: 10px;
 
 
 }
@@ -74,6 +81,7 @@
 .product-images img.active {
     padding: 2px 2px 2px 2px;
     border: 2px solid black;
+    transform: scale(1.1);
 }
 .product-images img:hover {
     border: 2px solid #007bff;
